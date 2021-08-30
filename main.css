@@ -1,0 +1,36 @@
+body {
+    background: url('./bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h3 {
+    color: yellow !important;
+    font-size: 26px;
+    margin-left: 15px;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+.titlesDiv {
+    color: #ffffff;
+    font-size: 16px;
+    height: 240px;
+    border: 1px dotted yellow;
+}
+
+.activeStory {
+    color: #ffffff;
+    font-size: 16px;
+    border: 1px dotted yellow;
+}
+
+.storySpan>b {
+    cursor: pointer;
+    color: yellow;
+    position: absolute;
+    bottom: 5px;
+}
+
+.storyPara {
+    color: #ffffff !important;
+}
